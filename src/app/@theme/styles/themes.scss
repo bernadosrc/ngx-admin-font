@@ -2,6 +2,7 @@
 @import '~@nebular/theme/styles/theming';
 // @nebular out of the box themes
 @import '~@nebular/theme/styles/themes';
+@import '../../../assets/fonts/fonts.scss';
 
 // which themes you what to enable (empty to enable all)
 $nb-enabled-themes: (default, cosmic, corporate);
@@ -12,8 +13,8 @@ $nb-themes: nb-register-theme((
   sidebar-header-height: initial,
   layout-content-width: 1400px,
 
-  font-main: Roboto,
-  font-secondary: Exo,
+  font-main: Exo2,
+  font-secondary: Exo2,
 
   switcher-background: #ebeff5,
   switcher-background-percentage: 50%,
@@ -42,8 +43,8 @@ $nb-themes: nb-register-theme((
   sidebar-header-height: initial,
   layout-content-width: 1400px,
 
-  font-main: Roboto,
-  font-secondary: Exo,
+  font-main: Exo2,
+  font-secondary: Exo2,
 
   switcher-background: #4e41a5,
   switcher-background-percentage: 14%,
@@ -72,7 +73,7 @@ $nb-themes: nb-register-theme((
   sidebar-header-height: initial,
   layout-content-width: 1400px,
 
-  font-main: Roboto,
+  font-main: Exo2,
   font-secondary: Exo,
 
   switcher-background: #2b2d34,
